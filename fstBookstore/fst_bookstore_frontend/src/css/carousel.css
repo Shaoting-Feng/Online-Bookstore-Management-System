@@ -1,0 +1,26 @@
+.carousel {
+    position: relative;
+    width:1375px;
+    height:577px;
+    overflow:hidden;
+}
+
+.carousel #ppt{
+    width:9999px;
+    height:9999px;
+    animation:switch 12s infinite;
+}
+
+#ppt img{
+    float:left;
+}
+
+@keyframes switch{
+    0%{transform:translateX(0px);}
+    22%{transform:translateX(-1375px);}
+    33%{transform:translateX(-1375px);}
+    55%{transform:translateX(-2750px);}
+    66%{transform:translateX(-2750px);}
+    88%{transform:translateX(-4125px);}
+    100%{transform:translateX(-4125px);}
+}
