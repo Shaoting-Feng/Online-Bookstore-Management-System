@@ -1,10 +1,24 @@
-# Project Description: Online Bookstore Management System
+# :bulb: Online Bookstore Management System
 
-## Project Overview:
+## :low_brightness: Introduction
 
-The Online Bookstore Management System is a comprehensive web application designed for both bookstore administrators and customers. It aims to provide efficient book management, purchasing, and order processing capabilities. The system encompasses user management, book management, book browsing, purchasing, order management, and statistical analysis functions.
+The Online Bookstore Management System is a **full-stack** web application designed for both bookstore administrators and customers. The system encompasses user management, book management, book browsing, purchasing, order management, and statistical analysis functions.
 
-## Key Features:
+## :postbox: Implementation 
+
+- Front-End Development:
+   - Utilizes React architecture for the front-end.
+   - Webpack for efficient resource management.
+
+- Back-End Development:
+   - Developed using Spring framework (Spring MVC/Bootstrap/ORM).
+   - Utilizes Maven build management tools.
+
+- Development Tools:
+   - IntelliJ for code development.
+   - Backend database implemented using MySQL.
+
+## :calling: Key Features:
 
 ### 1. User Management:
    - Administrators can manage user accounts, enabling them to disable or enable user access. Disabled users cannot log in and receive a notification indicating their account status.
@@ -35,19 +49,3 @@ The Online Bookstore Management System is a comprehensive web application design
    - Administrators can generate sales reports for specific time ranges, displaying book sales volume in descending order. This creates a bestseller list.
    - Administrators can also generate customer expenditure reports, ranking customers by total spending.
    - Customers can view their own purchase statistics, including the number of books purchased, total quantity, and expenditure, for specific time ranges.
-
-## Technical Implementation Requirements:
-
-### 1. Front-End Development:
-   - Utilizes React or Vue.js architecture for the front-end.
-   - Webpack or similar bundling tools for efficient resource management.
-
-### 2. Back-End Development:
-   - Developed using Spring framework (Spring MVC/Bootstrap/ORM) or equivalent.
-   - Utilizes Maven or similar build management tools.
-
-### 3. Development Tools:
-   - Preferred development environments include IntelliJ or WebStorm for code development.
-   - Backend database implemented using MySQL.
-
-The Online Bookstore Management System is designed to streamline bookstore operations, providing both administrators and customers with a user-friendly platform for efficient book purchasing and management.
